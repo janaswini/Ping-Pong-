@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Lato-ThinItalic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-ThinItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: Lato-Black;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: Lato-BlackItalic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-BlackItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-Bold.ttf) format('truetype');
+} 
+ @font-face {
+  font-family: Lato-BlackItalic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-BlackItalic.ttf) format('truetype');
+} 
+@font-face {
+  font-family: Lato-BoldItalic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: Lato-Hairline;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-Hairline.ttf) format('truetype');
+}
+@font-face {
+  font-family: Lato-HairlineItalic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-HairlineItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: Lato-HeavyItalic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-Heavy.ttf) format('truetype');
+}
+@font-face {
+  font-family : Montserrat-Italic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-HeavyItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family : Lato-Italic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family : Lato-Light;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family : Lato-LightItalic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-LightItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family : Lato-Medium;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family : Lato-MediumItalic;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-MediumItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family : Lato-Regular;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family : Lato-Semibold;
+  src: url(../src/Assets/fonts/Lato2OFL/Lato-Semibold.ttf) format('truetype');
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:rgba(0, 0, 0, 0.2);
+}
+/********************************************************** scroll bar - end*/
+
+/**************************************** common css inclusion here - start */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100%;
+}
+
+.points {
+  background-color: #00800042 !important;
+}

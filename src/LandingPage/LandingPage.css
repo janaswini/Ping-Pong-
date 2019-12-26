@@ -1,0 +1,68 @@
+#landing-page{
+	width: 100vw;
+  height:  100vh;
+  background-image:url('../Assets/Images/ivan-cortez-452143-unsplash.png') ;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+#landing-page .title{
+  flex: 0 0 40px;
+	font-family: Lato-Bold;
+	font-size: xx-large;
+  color: #4af34a;
+  margin: 3px 0px 12px 16px;
+}
+
+/* tab Css */
+
+.buttonTwoTab {
+  width: 281px;
+  height: 40px;
+  flex: 0 0 30px;
+  display:flex;
+  align-self: center;
+  margin: 0px 0px 30px 0px;
+  z-index: 1;
+}
+
+.tab {
+  width: 140px;
+	height: 40px;
+	font-family: Lato-Black;
+  font-size: 18px;
+  font-size: 16px;
+  font-weight: bolder;
+  border: 0;
+  color: #000;
+  cursor: pointer;
+  outline: 0; 
+}
+
+.active {
+  background-color: white !important;
+  color: #5BBC2E !important;
+}
+
+.inactive {
+  background-color: #FFF;
+  opacity: 0.7;  
+}
+
+
+.tab-fixtures {
+  margin-right: 1px;
+  border-radius: 5px 0 0 5px;  
+}
+
+.tab-standing {
+  border-radius: 0 5px 5px 0;
+}
